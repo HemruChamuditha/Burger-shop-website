@@ -1,8 +1,6 @@
-h1{
-    color: red;
-}
-
 p{
-    background-color: lightcyan;
-    color: blue;
+    background-color: red;
+    text-align: right;
+    width: 40%;
+    align-items: center;
 }
