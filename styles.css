@@ -1,6 +1,12 @@
-p{
-    background-color: red;
-    text-align: right;
-    width: 40%;
-    align-items: center;
+section{
+    color: red;
+}
+a{
+    color: inherit;
+}
+body{
+    color: green;
+}
+button{
+    color: inherit;
 }
