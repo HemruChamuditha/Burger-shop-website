@@ -1,12 +1,24 @@
-section{
-    color: red;
+body {
+  background-color: #373a40;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-a{
-    color: inherit;
+
+button {
+  background: none;
+  color: #eeeeee;
+  padding: 13px;
+  border: 2px solid #DC5F00;
+  border-radius: 9px;
+  transition: all 0.5s;
 }
-body{
-    color: green;
-}
-button{
-    color: inherit;
+
+button:hover {
+  background-color: #dc5f00;
+  cursor: pointer;
+  border: 2px solid #eeeeee;
+  transform: translateY(-0.2rem);
+  box-shadow: 0px 0px 9px 0px #fee546;
 }
