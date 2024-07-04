@@ -103,8 +103,9 @@ p {
   margin-left: 23px;
 }
 
-.memories{
+.memories {
   height: 100vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.334);
 }
 .memories p {
   color: #f6f6f6;
@@ -143,6 +144,28 @@ p {
   transition: 1s ease;
 }
 
+.card img {
+  height: 200px;
+}
+
+.card {
+  background-color: rgb(255, 198, 198);
+}
+
+.btn-primary {
+  background-color: #ffb300;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #ffb300;
+  background-color: #f44313;
+  color: #f6f6f6;
+}
+
 @media (max-width: 582px) {
   .headerDetails h1 {
     font-family: "Onest", sans-serif;
@@ -170,7 +193,7 @@ p {
 }
 
 @media (max-width: 1001px) {
-  .memories{
+  .memories {
     height: auto;
   }
   .memoryImage .imageTwo {
@@ -179,9 +202,8 @@ p {
     max-width: 100%;
     height: auto;
     transition: none;
-    
   }
-  .memories h1{
+  .memories h1 {
     padding-top: 30px;
     font-size: 2rem;
     text-align: center;
