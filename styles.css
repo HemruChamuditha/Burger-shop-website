@@ -6,6 +6,7 @@ body {
 /* Navigation bar propeties */
 .mainNavBar {
   background-color: #3e0404;
+ 
 }
 
 .mainNavBar .navbar-brand {
@@ -149,7 +150,7 @@ p {
 }
 
 .card {
-  background-color: rgb(255, 198, 198);
+  background-color: rgb(255, 255, 255);
 }
 
 .btn-primary {
@@ -165,6 +166,28 @@ p {
   background-color: #f44313;
   color: #f6f6f6;
 }
+.contactUs{
+  height: 100vh;
+}
+
+
+form label {
+  color: white;
+}
+
+.myForm{
+  padding: 10px 15px;
+}
+
+form{
+  height: 100%;
+}
+
+
+
+
+
+
 
 @media (max-width: 582px) {
   .headerDetails h1 {

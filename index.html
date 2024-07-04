@@ -222,7 +222,11 @@
 
           <div class="column col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card" style="">
-              <img src="seven.jpg" class="card-img-top p-2 object-fit-fill" alt="..." />
+              <img
+                src="seven.jpg"
+                class="card-img-top p-2 object-fit-fill"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Delicious Pork Chop</h5>
                 <p class="card-text">
@@ -247,6 +251,83 @@
                 <a href="#" class="btn btn-primary">See More</a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-5 mb-5 pt-2 pb-5 contactUs">
+        <h1 class="pb-4">Contact Us</h1>
+
+        <div class="row">
+          <div
+            class="column col-lg-6 contactUsImage d-flex flex-column align-items-baseline"
+          >
+            <img src="image.png" style="width: 100%" alt="" />
+          </div>
+
+          <!-- Form inuts -->
+          <div class="column col-lg-6 contactUsForm d-flex flex-column">
+            <form class="d-flex flex-column justify-content-evenly">
+              <div class="form-group">
+                <label for="fullName" class="pb-1">Full Name</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  class="form-control myForm"
+                  placeholder="Enter Your name"
+                />
+              </div>
+
+              <div class="row">
+                <div class="column col-lg-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="pb-1">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control myForm"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                   
+                  </div>
+                </div>
+                <div class="column col-lg-6">
+                  <div class="form-group">
+                    <label for="phoneNumber" class="pb-1">Phone number</label>
+                    <input
+                      type="text"
+                      id="phoneNumber"
+                      class="form-control myForm"
+                      placeholder="phoneNumber"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="Message" class="pb-1">Message</label>
+                <textarea
+                  name=""
+                  id="Message"
+                  class="form-control"
+                  style="height: 100px"
+                  placeholder="How Can I help You?"
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="pb-1">Password</label>
+                <input
+                  type="password"
+                  class="form-control myForm"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary formSubmit mt-3">Submit</button>
+            </form>
           </div>
         </div>
       </section>
